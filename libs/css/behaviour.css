@@ -1,0 +1,162 @@
+/*
+**ALINHAMENTO PADRÃO PARA ELEMENTOS QUE NÃO POSSUEM
+**POSICIONAMENTO FIXO, ABSOLUTE OU RELATIVO
+*/
+.floatLeft {
+  float: left;
+}
+.floatRight {
+  float: right;
+}
+.alignCenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+**ALINHAMENTO PARA ELEMENTOS QUE POSSUEM POSIIONAMENTO
+**FIXO, RELATIVO OU ABSOLUTO
+*/
+/***************************/
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.position-fixed {
+  position: fixed;
+}
+.position-static {
+  position: static;
+}
+/***************************/
+.position-top {
+  top: 50%;
+}
+.position-left {
+  left: 50%;
+}
+/****************************/
+.vertical-align-1 {
+  top: 5%;
+}
+.vertical-align-2 {
+  top: 10%;
+}
+.vertical-align-3 {
+  top: 15%;
+}
+.vertical-align-4 {
+  top: 20%;
+}
+.vertical-align-5 {
+  top: 25%;
+}
+.vertical-align-6 {
+  top: 30%;
+}
+.vertical-align-7 {
+  top: 35%;
+}
+.vertical-align-8 {
+  top: 40%;
+}
+.vertical-align-9 {
+  top: 45%;
+}
+.vertical-align-10 {
+  top: 50%;
+}
+/***************************/
+.horizontal-align-1 {
+  left: 5%;
+}
+.horizontal-align-2 {
+  left: 10%;
+}
+.horizontal-align-3 {
+  left: 15%;
+}
+.horizontal-align-4 {
+  left: 20%;
+}
+.horizontal-align-5 {
+  left: 25%;
+}
+.horizontal-align-6 {
+  left: 30%;
+}
+.horizontal-align-7 {
+  left: 35%;
+}
+.horizontal-align-8 {
+  left: 40%;
+}
+.horizontal-align-9 {
+  left: 45%;
+}
+.horizontal-align-10 {
+  left: 50%;
+}
+/*******************************/
+.vertical-margin-align-1 {
+  top: -5%;
+}
+.vertical-margin-align-2 {
+  top: -10%;
+}
+.vertical-margin-align-3 {
+  top: -15%;
+}
+.vertical-margin-align-4 {
+  top: -20%;
+}
+.vertical-margin-align-5 {
+  top: -25%;
+}
+.vertical-margin-align-6 {
+  top: -30%;
+}
+.vertical-margin-align-7 {
+  top: -35%;
+}
+.vertical-margin-align-8 {
+  top: -40%;
+}
+.vertical-margin-align-9 {
+  top: -45%;
+}
+.vertical-margin-align-10 {
+  top: -50%;
+}
+/**********************************/
+.horizontal-margin-align-1 {
+  top: -5%;
+}
+.horizontal-margin-align-2 {
+  top: -10%;
+}
+.horizontal-margin-align-3 {
+  top: -15%;
+}
+.horizontal-margin-align-4 {
+  top: -20%;
+}
+.horizontal-margin-align-5 {
+  top: -25%;
+}
+.horizontal-margin-align-6 {
+  top: -30%;
+}
+.horizontal-margin-align-7 {
+  top: -35%;
+}
+.horizontal-margin-align-8 {
+  top: -40%;
+}
+.horizontal-margin-align-9 {
+  top: -45%;
+}
+.vertical-margin-align-10 {
+  top: -50%;
+}

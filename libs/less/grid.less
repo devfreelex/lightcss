@@ -1,0 +1,58 @@
+/*
+**GRID
+*
+**FUNÇÃO PADRÃO PARA CRIAÇÃO DE GRID ELEMENTS
+*
+**NO SEU INTERIOR DECLARA A CONSTRANTE @defaultGrid
+**ESTA VARIÁVEL É RESPONSÁVEL POR DEFINIR A LARGURA
+**TOTAL DO GRID PARA  100%;
+*
+**DECLARA AINDAS AS VARIÁVEIS @widthGrid E @sizeGrid
+**QUE PARTICIPAM DO CÁLCULO PARA DEFINIÇÃO DA LARGURA
+**DOS ELEMENTOS DO GRID
+*/
+
+.gridFlexible(@widthGrid){
+
+  @sizeGrid:20;
+
+  & when(@sizeGrid < 21)
+  {
+    width:@widthGrid * 1%
+  }
+
+}
+
+/*
+**APLICAÇÃO DOS ELEMENTOS DO GRID
+*/
+
+.cl1{.gridFlexible(5)}
+.cl2{.gridFlexible(10)}
+.cl3{.gridFlexible(15)}
+.cl4{.gridFlexible(20)}
+.cl5{.gridFlexible(25)}
+.cl6{.gridFlexible(30)}
+.cl7{.gridFlexible(35)}
+.cl8{.gridFlexible(40)}
+.cl9{.gridFlexible(45)}
+.cl10{.gridFlexible(50)}
+.cl11{.gridFlexible(55)}
+.cl12{.gridFlexible(60)}
+.cl13{.gridFlexible(65)}
+.cl14{.gridFlexible(70)}
+.cl15{.gridFlexible(75)}
+.cl16{.gridFlexible(80)}
+.cl17{.gridFlexible(85)}
+.cl18{.gridFlexible(90)}
+.cl19{.gridFlexible(95)}
+.cl20{.gridFlexible(100)}
+
+
+/*
+**DEFINE LARGURA MÁXIMA DO GRID PARA 1280PX
+*/
+.grid-max-width{
+  width:1280px
+}
+
